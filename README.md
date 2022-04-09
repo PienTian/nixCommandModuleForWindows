@@ -4,7 +4,7 @@ it is powershell module so you can use them on any windows machine.
 
 unixライクなコマンドのpowershell モジュールです。どんな環境のwindows pcでも使えます。
 
-currently Available commands
+#### currently Available commands
 * `su`
 * `touch`
 
