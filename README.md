@@ -5,8 +5,8 @@ it is powershell module so you can use them on any windows machine.
 unixライクなコマンドのpowershell モジュールです。どんな環境のwindows pcでも使えます。
 
 currently Available commands
-* su
-* touch
+* `su`
+* `touch`
 
 ## Set up to use the commands
 Put 'unixCommandMimic' directory under 'C:\Windows\System32\WindowsPowerShell\v1.0\Modules' directory. Make sure you have appropriate powershell execution policy. Here is an example.
