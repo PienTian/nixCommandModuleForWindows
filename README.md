@@ -1,4 +1,4 @@
-# nixCommandModuleForWindows
+# unixCommandModuleForWindows
 \*nix like commands module for windows written in powershell. It is not completely same as *nix command but still useful.
 it is powershell module so you can use them on any windows machine.
 
