@@ -1,7 +1,13 @@
 $ErrorActionPreference = "Stop"
+# module version 1.1
 
 Function Su{
-    start-process PowerShell -Verb RunAs
+    $Version7 = (Get-Host).Version.Major.Equals(7)
+    if($Version7){
+        start-process pwsh -Verb RunAs
+    }else{
+       start-process PowerShell -Verb RunAs
+    }
 }
 
 Function Touch
