@@ -36,6 +36,13 @@ ALL SET :)
 
 >_それでも動かなかった場合は、上記のコマンドでポリシーを緩めるか、.psm1と.psd1ファイルを新しく作成して内容をコピペしてください。_
 
+### To Enable su to call powershell 7
+
+put the directory under the "C:\Porgram Files\powershell\7\Module" directory.
+If you still want to use the commands on other versions of powershell, you also need to keep the directory under "C:\windows\System32\WindowsPowerShell\v1.0\module"
+
+now, if you type su on powershell 7 terminal, su will run powershell 7 as admin.
+
 ### command explanation
 `su` runs new shell as admin
 `touch` can modify timestamp or create new file
